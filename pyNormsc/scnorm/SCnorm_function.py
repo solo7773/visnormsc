@@ -12,6 +12,7 @@ from . import GetTD
 from . import poly
 
 def SCnorm_fit(Data, SeqDepth, Slopes, K, PropToUse=.25, Tau=.5, NCores=None):
+    print('Fitting group quantile regression for', K, 'groups')
     SeqDepth = pd.DataFrame({'Depth': np.log(SeqDepth)}) # use LOG
     SeqDepth['Sample'] = SeqDepth.index.values
 

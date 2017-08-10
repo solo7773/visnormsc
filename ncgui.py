@@ -306,7 +306,7 @@ class mainApp():
 
     def fireResultViewStep2(self, resData):
         # insert data
-        ## 1 resData[0]['NormalizedData'], dict
+        ## 1 resData[0]['NormalizedData'], dict, df
         self.result1Text.config(state=tk.NORMAL)
         rowColNames = ' , ' + ', '.join([str(x) for x in resData[0]['NormalizedData'].columns.values.tolist()]) + '\n'
         self.result1Text.insert('end', rowColNames)
@@ -318,7 +318,7 @@ class mainApp():
             self.result1Text.insert('end', rowContent)
         self.result1Text.see("1.0")
         self.result1Text.config(state=tk.DISABLED)
-        ## 2 resData[0]['ScaleFactors']
+        ## 2 resData[0]['ScaleFactors'], dict, df
         self.result2Text.config(state=tk.NORMAL)
         rowColNames = ' , ' + ', '.join([str(x) for x in resData[0]['ScaleFactors'].columns.values.tolist()]) + '\n'
         self.result2Text.insert('end', rowColNames)
@@ -330,15 +330,15 @@ class mainApp():
             self.result2Text.insert('end', rowContent)
         self.result2Text.see("1.0")
         self.result2Text.config(state=tk.DISABLED)
-        ## 3 dict resData[1], dict
+        ## 3 dict resData[1], df
         self.result3Text.config(state=tk.NORMAL)
-        geneFilteredOutDF = pd.concat([pd.Series(resData[1][x], name=x) for x in resData[1]], axis=1)
-        rowColNames = ' , ' + ', '.join([str(x) for x in geneFilteredOutDF.columns.values.tolist()]) + '\n'
+        # geneFilteredOutDF = pd.concat([pd.Series(resData[1][x], name=x) for x in resData[1]], axis=1)
+        rowColNames = ' , ' + ', '.join([str(x) for x in resData[1].columns.values.tolist()]) + '\n'
         self.result3Text.insert('end', rowColNames)
-        for iii in range(len(geneFilteredOutDF)):
+        for iii in range(len(resData[1])):
             if iii >= 500:
                 break
-            rowContent = str(iii) + ', ' + ', '.join([str(x) for x in geneFilteredOutDF.iloc[iii,:].tolist()]) + '\n'
+            rowContent = str(iii) + ', ' + ', '.join([str(x) for x in resData[1].iloc[iii,:].tolist()]) + '\n'
             self.result3Text.insert('end', rowContent)
         self.result3Text.see("1.0")
         self.result3Text.config(state=tk.DISABLED)

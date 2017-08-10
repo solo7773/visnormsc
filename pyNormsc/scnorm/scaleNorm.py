@@ -30,7 +30,7 @@ def scaleNormMultCont(NormData, OrigData, Genes):
             ss1 = np.array([np.mean(x[x != 0]) for x in C1.loc[qgenes].values])
             os = np.array([np.mean(x[x != 0]) for x in OC.loc[qgenes].values])
 
-            rr = np.median(ss1 / os)  # print(rr)
+            rr = np.median([x for x in (ss1 / os) if not np.isnan(x)])  # print(rr)
             C1.loc[qgenes] = np.round((C1.loc[qgenes] / rr), 2)
             SF.loc[qgenes] = SF.loc[qgenes] * rr
 

@@ -81,7 +81,7 @@ def SCnorm(Data=None, Conditions=None, PLOT=False, PropToUse = .25, Tau = .5, re
     GeneFilterList = [NumZerosList[x][NumZerosList[x] >= FilterCellNum].index for x in range(len(Levels))]
 
     GeneFilterOUT = {'GenesFilteredOutCondition_' + str(Levels[x]): NumZerosList[x][NumZerosList[x] < FilterCellNum].index.values if (NumZerosList[x] < FilterCellNum).any() else ['No'] for x in range(len(Levels))}
-    #GeneFilterOUT = pd.DataFrame.from_dict(GeneFilterOUT)
+    GeneFilterOUT = pd.concat([pd.Series(GeneFilterOUT[x], name=x) for x in GeneFilterOUT], axis=1)
 
     print('Gene filter is applied within each condition.')
 
@@ -91,7 +91,7 @@ def SCnorm(Data=None, Conditions=None, PLOT=False, PropToUse = .25, Tau = .5, re
         else:
             print(x, ': ', len(GeneFilterOUT[x]), 'gene(s) were not included in the normalization due to having less than', FilterCellNum, 'non-zero values.')
 
-    print("A list of these genes can be accessed in output, see GUI.")
+    print("A list of these genes will be shown in the GUI message board.")
 
     # Data, SeqDepth, Slopes, CondNum, PLOT = TRUE, PropToUse, outlierCheck, Tau
 
@@ -123,7 +123,7 @@ def SCnorm(Data=None, Conditions=None, PLOT=False, PropToUse = .25, Tau = .5, re
         # Scaling
         # Genes = Reduce(intersect, GeneFilterList)
         print("Scaling data between conditions...")
-        ScaledNormData = scaleNorm.scaleNormMultCont(NormList, Data, Genes)
+        ScaledNormData = scaleNorm.scaleNormMultCont(copy.deepcopy(NormList), Data, Genes)
         ScaledNormData = [ScaledNormData, GeneFilterOUT]
         if reportSF == True:
             return ScaledNormData, figInstance
