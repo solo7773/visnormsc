@@ -1,7 +1,6 @@
 import matplotlib
 matplotlib.use('TkAgg')
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2TkAgg
-from matplotlib.backend_bases import key_press_handler
 import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog
@@ -114,9 +113,9 @@ class mainApp():
         openButton.grid(row=0, column=0, sticky='WENS')
         # save data icon
         self.saveIcon = tk.PhotoImage(file=os.path.join(imgDir, '22.gif'))
-        saveButton = ttk.Button(toolbarFrame, compound=tk.LEFT, image=self.saveIcon, text='Save', style='icon.TButton')
-        saveButton.grid(row=0, column=1, sticky='WENS')
-        saveButton.state(['disabled'])
+        self.saveButton = ttk.Button(toolbarFrame, compound=tk.LEFT, image=self.saveIcon, text='Save', style='icon.TButton')
+        self.saveButton.grid(row=0, column=1, sticky='WENS')
+        self.saveButton.state(['disabled'])
         sepLine = ttk.Separator(toolbarFrame, orient=tk.VERTICAL)
         sepLine.grid(row=0, column=2, sticky='NS')
         # exit icon
@@ -298,6 +297,7 @@ class mainApp():
             fWidth = results.winfo_width()
             # height - extra (23 or 2) - text border - text top and bottom space - scrollbar height
             lines = int((fHeight - 23 - 2 - 2 - 1 - 1 - 16) / (12 + 1 + 1))
+            lines = self.adjustTextLiens(lines)
             columns = int((fWidth - 2 - 2 - 2 - 1 - 1 - 16) / tkFont.Font(family='Helvetica', size=-12).measure('a'))
             self.result1Text.configure(width=columns, height=lines)
             self.result2Text.configure(width=columns, height=lines)
@@ -355,6 +355,7 @@ class mainApp():
             fWidth = logFrame.winfo_width()
             # height - frame padding - text border - text top and bottom space - scrollbar height
             lines = int((fHeight - 2 - 2 - 2 - 2 - 1 - 1) / (12 + 1 + 1))
+            lines = self.adjustTextLiens(lines)
             columns = int((fWidth - 2 - 2 - 2 - 2 - 1 - 1 - 16) / tkFont.Font(family='Helvetica', size=-12).measure('a'))
             self.logBoard.configure(width=columns, height=lines)
         logFrame.bind('<Configure>', setTextAreaSize)
@@ -392,6 +393,19 @@ class mainApp():
         else:
             self.dataFile.set('Please open data')
 
+    def adjustTextLiens(self, oldLines):
+        userPlatform = self.root.tk.call('tk', 'windowingsystem') # x11, win32 or aqua
+        userPlatform = userPlatform.lower()
+        if userPlatform == 'aqua':
+            newLines = oldLines
+        elif userPlatform == 'win32':
+            newLines = oldLines - 2
+        elif userPlatform == 'x11':
+            newLines = oldLines
+        else:
+            newLines = oldLines
+        return newLines
+
     def showDataText(self, filename=None):
         textArea = tk.Text(self.tableViewFrame, width=79, height=26, state='disabled', wrap=tk.NONE, font=tkFont.Font(family='Helvetica', size=-12))
         textArea.grid(row=0, column=0, sticky='WE')
@@ -401,6 +415,7 @@ class mainApp():
             fWidth = self.tableViewFrame.winfo_width()
             # height - label height - frame padding - text border - text top and bottom space - scrollbar height
             lines = int((fHeight - 15 - 2 - 2 - 2 - 2 - 1 - 1 - 16) / (12 + 1 + 1))
+            lines = self.adjustTextLiens(lines)
             columns = int((fWidth - 2 - 2 - 2 - 2 - 1 - 1 - 16) / tkFont.Font(family='Helvetica', size=-12).measure('a'))
             textArea.configure(width=columns, height=lines)
         textArea.bind('<Configure>', setTextAreaSize)
@@ -414,7 +429,7 @@ class mainApp():
         textArea.config(state=tk.NORMAL)
         with open(filename, 'r') as dataIN:
             lll = 0
-            while lll < 500:
+            while lll <= 500:
                 aLine = dataIN.readline()
                 textArea.insert('end', aLine)
                 lll += 1
@@ -590,6 +605,9 @@ class mainApp():
                                     normPar_K, normParCPUs, normParFilterExpression, normParThresh)
                 ## show result data in GUI
                 self.fireResultViewStep2(normResData)
+                ## activate save button
+                self.saveButton.state(['!disabled'])
+                self.saveButton.configure(command=lambda: self.saveNormResult2Files(normResData))
                 ## make figure window
                 figWindow = tk.Toplevel(self.root)
                 figWindow.title('Normalization result')
@@ -600,6 +618,21 @@ class mainApp():
                 toolbar.update()
                 canvas._tkcanvas.pack(side=tk.TOP, fill=tk.BOTH, expand=1)
 
+    def saveNormResult2Files(self, resData):
+        saveDir = filedialog.askdirectory()
+        if saveDir:
+            self.print2Text('Normalized data, scale factors and genes filtered out have been saved in', saveDir)
+            ## 1 resData[0]['NormalizedData'], dict, df
+            file1name = os.path.join(saveDir, 'normalizedData.csv')
+            resData[0]['NormalizedData'].to_csv(file1name)
+            ## 2 resData[0]['ScaleFactors'], dict, df
+            file2name = os.path.join(saveDir, 'scaleFactors.csv')
+            resData[0]['ScaleFactors'].to_csv(file2name)
+            ## 3 dict resData[1], df
+            file3name = os.path.join(saveDir, 'filteredGenes.csv')
+            resData[1].to_csv(file3name)
+        else:
+            self.print2Text('No data saved as you didn\'t select target directory.')
 
     def __init__(self, master):
         self.root = master

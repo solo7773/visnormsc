@@ -1,6 +1,5 @@
 
 import multiprocessing
-import logging
 import pandas as pd
 import numpy as np
 import sys
@@ -10,9 +9,6 @@ from . import NormWrap
 from . import SCnorm_function
 from . import checkCountDepth
 from . import scaleNorm
-
-logging.basicConfig(format='%(asctime)s %(levelname)s %(message)s', level=0)
-#logging.disable(100)
 
 def SCnorm(Data=None, Conditions=None, PLOT=False, PropToUse = .25, Tau = .5, reportSF = False, FilterCellNum = 10, K = None, NCores = None, FilterExpression = 0, Thresh = 0.1):
     '''
@@ -54,15 +50,15 @@ def SCnorm(Data=None, Conditions=None, PLOT=False, PropToUse = .25, Tau = .5, re
     if NCores is None:
         NCores = multiprocessing.cpu_count()
         NCores = NCores - 1 if NCores > 1 else NCores
-        logging.info('%s CPU cores will be used.', str(NCores))
+        print(NCores, 'CPU cores will be used.')
 
     Conditions = np.array([str(x) for x in Conditions])
     Levels = sorted(list(set(Conditions)))
-    logging.info('Conditions: ' + str(Levels))
+    print('Conditions: ', Levels)
     # make sure K's order matches Levels' order
     if K is not None:
         K = [K[x] for x in Levels]
-        logging.info('K: %s', str(K))
+        print('K:', K)
 
     DataList = [Data.iloc[:, Conditions == x] for x in Levels] # split condition
 

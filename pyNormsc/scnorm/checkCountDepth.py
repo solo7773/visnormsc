@@ -3,17 +3,11 @@ import sys
 import multiprocessing
 import numpy as np
 import pandas as pd
-import logging
 import math
-#import matplotlib.pyplot as plt
 from matplotlib.figure import Figure
 import warnings
 from . import GetSlopes
 from . import initialEvalPlot
-
-logging.basicConfig(format='%(asctime)s %(levelname)s %(message)s', level=0)
-#logging.disable(100)
-
 
 def checkCountDepth(Data = None, NormalizedData= None, Conditions = None, Tau = .5, FilterCellProportion = .10,
                     FilterExpression = 0, NumExpressionGroups = 10, NCores=None):
@@ -48,10 +42,10 @@ def checkCountDepth(Data = None, NormalizedData= None, Conditions = None, Tau = 
     if NCores is None:
         NCores = multiprocessing.cpu_count()
         NCores = NCores - 1 if NCores > 1 else NCores
-        logging.info('%s CPU cores will be used.', str(NCores))
+        print(NCores, 'CPU cores will be used.')
     Conditions = np.array([str(x) for x in Conditions])
     Levels = sorted(list(set(Conditions)))
-    logging.info('Conditions: ' + str(Levels))
+    print('Conditions: ', Levels)
     if not hasattr(FilterCellProportion, '__iter__'):
         FilterCellProportion = [FilterCellProportion] * len(Levels)
     elif 1 < len(FilterCellProportion) != len(Levels):
