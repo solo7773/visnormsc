@@ -2,315 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbeab2f3-2b2e-470e-bfc2-a6ad9e9580ad" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/evaluate_k_for_condition_1M.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/evaluate_k_for_condition_4M.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/evaluate_k_for_condition_c.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/evaluate_k_for_condition_cond1.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/evaluate_k_for_condition_cond2.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/evaluate_k_for_condition_f.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/1.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/10.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/11.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/12.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/13.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/14.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/15.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/16.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/17.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/18.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/19.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/2.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/20.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/21.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/22.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/23.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/25.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/26.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/27.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/28.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/29.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/3.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/30.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/31.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/32.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/33.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/34.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/35.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/36.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/37.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/38.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/39.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/4.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/40.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/41.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/42.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/42a.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/43.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/44.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/45.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/46.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/47.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/48.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/49.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/5.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/50.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/51.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/52.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/53.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/54.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/55.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/56.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/57.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/58.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/59.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/6.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/60.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/61.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/62.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/63.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/64.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/65.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/66.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/67.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/68.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/69.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/7.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/70.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/71.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/72.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/73.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/74.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/75.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/76.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/77.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/78.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/79.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/8.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/80.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/81.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/82.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/83.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/84.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/85.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/86.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/87.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/88.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/89.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/9.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/90.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/91.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/92.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/93.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/94.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/95.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/bmp/24x24/96.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/1.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/10.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/11.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/12.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/13.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/14.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/15.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/16.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/17.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/18.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/19.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/2.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/20.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/21.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/22.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/23.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/24.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/25.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/26.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/27.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/28.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/29.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/3.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/30.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/31.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/32.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/33.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/34.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/35.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/36.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/37.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/38.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/39.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/4.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/40.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/41.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/42.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/42a.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/43.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/44.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/45.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/46.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/47.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/48.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/49.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/5.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/50.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/51.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/52.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/53.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/54.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/55.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/56.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/57.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/58.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/59.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/6.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/60.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/61.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/62.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/63.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/64.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/65.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/66.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/67.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/68.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/69.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/7.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/70.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/71.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/72.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/73.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/74.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/75.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/76.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/77.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/78.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/79.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/8.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/80.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/81.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/82.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/83.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/84.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/85.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/86.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/87.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/88.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/89.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/9.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/90.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/91.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/92.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/93.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/94.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/95.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/ico/96.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/index.url" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/42a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/44.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/46.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/51.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/52.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/53.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/55.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/56.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/58.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/59.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/61.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/62.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/63.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/65.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/66.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/67.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/68.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/69.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/70.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/71.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/73.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/74.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/75.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/77.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/78.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/79.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/80.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/81.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/82.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/83.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/84.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/85.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/86.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/87.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/88.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/89.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/90.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/91.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/92.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/93.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/94.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/95.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/freeIcons/png/24x24/96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pyNormsc/scnorm/checkCountDepth copy.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pyNormsc/scnorm/initialEvalPlot copy.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testData/bulkH1data.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testData/exampleData.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testData/exampleDataConditions.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testData/scH1data.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testData/scH1dataConditions.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testData/test.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/evaluate_k_for_condition_1.pdf" afterPath="$PROJECT_DIR$/test/evaluate_k_for_condition_1.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/evaluate_k_for_condition_2.pdf" afterPath="$PROJECT_DIR$/test/evaluate_k_for_condition_2.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ncgui.py" afterPath="$PROJECT_DIR$/ncgui.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyNormsc/scnorm/SCnorm.py" afterPath="$PROJECT_DIR$/pyNormsc/scnorm/SCnorm.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyNormsc/scnorm/checkCountDepth.py" afterPath="$PROJECT_DIR$/pyNormsc/scnorm/checkCountDepth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyNormsc/scnorm/NormWrap.py" afterPath="$PROJECT_DIR$/pyNormsc/scnorm/NormWrap.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/normalizedData.csv" afterPath="$PROJECT_DIR$/test/normalizedData.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/scaleFactors.csv" afterPath="$PROJECT_DIR$/test/scaleFactors.csv" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -328,8 +26,8 @@
       <file leaf-file-name="scratch.py" pinned="false" current-in-tab="true">
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="1102" column="39" lean-forward="false" selection-start-line="1102" selection-start-column="39" selection-end-line="1102" selection-end-column="39" />
+            <state relative-caret-position="324">
+              <caret line="1125" column="0" lean-forward="false" selection-start-line="1125" selection-start-column="0" selection-end-line="1125" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -346,16 +44,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>root</find>
-      <find>print</find>
-      <find>filterExpression</find>
-      <find>isNormData</find>
-      <find>normData</find>
-      <find>self.normData</find>
-      <find>self.isNormData</find>
-      <find>savePlots</find>
-      <find>normCheckBtStatus</find>
-      <find>normDataCheckBt</find>
       <find>tb.TFrame</find>
       <find>os.</find>
       <find>normParFilterExpression</find>
@@ -369,13 +57,23 @@
       <find>result1Text</find>
       <find>result2Text</find>
       <find>result3Text</find>
-      <find>res.TFrame</find>
       <find>preview</find>
       <find>read_csv</find>
       <find>self.normResData</find>
       <find>geome</find>
       <find>disabled</find>
       <find>logging</find>
+      <find>log.TFrame</find>
+      <find>makeEmptyResultView</find>
+      <find>fireResultViewStep2</find>
+      <find>fireResultViewStep1</find>
+      <find>fireResultView</find>
+      <find>sys.stderr</find>
+      <find>bind</find>
+      <find>Configure</find>
+      <find>.bind</find>
+      <find>res.TFrame</find>
+      <find>TNotebook.Tab</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -407,18 +105,18 @@
         <option value="$PROJECT_DIR$/pyNormsc/scnorm/initialEvalPlot.py" />
         <option value="$PROJECT_DIR$/pyNormsc/scnorm/generalFuncs.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/pyNormsc/scnorm/NormWrap.py" />
         <option value="$PROJECT_DIR$/visnormsc.py" />
         <option value="$PROJECT_DIR$/pyNormsc/scnorm/scaleNorm.py" />
         <option value="$PROJECT_DIR$/pyNormsc/scnorm/SCnorm_function.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
         <option value="$PROJECT_DIR$/pyNormsc/scnorm/checkCountDepth.py" />
         <option value="$PROJECT_DIR$/pyNormsc/scnorm/SCnorm.py" />
-        <option value="$PROJECT_DIR$/ncgui.py" />
         <option value="$PROJECT_DIR$/guiscnorm.py" />
         <option value="$PROJECT_DIR$/pyNormsc/scnorm/GetTD.py" />
         <option value="$PROJECT_DIR$/pyNormsc/gui.py" />
         <option value="$PROJECT_DIR$/pyNormsc/__init__.py" />
+        <option value="$PROJECT_DIR$/pyNormsc/scnorm/NormWrap.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+        <option value="$PROJECT_DIR$/ncgui.py" />
       </list>
     </option>
   </component>
@@ -462,6 +160,52 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="visnormsc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="visnormsc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="visnormsc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="visnormsc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyNormsc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="visnormsc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="visnormsc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyNormsc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scnorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="Scratches">
         <subPane>
@@ -473,20 +217,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Scratches" />
               <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="visnormsc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="visnormsc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -649,16 +379,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31473532" sideWeight="0.48367348" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32761088" sideWeight="0.48367348" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.509299" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.490701" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.48569384" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968536" sideWeight="0.48712447" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968536" sideWeight="0.48712447" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2746781" sideWeight="0.51632655" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -667,6 +397,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -721,7 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="28" column="71" lean-forward="false" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,9 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,9 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="67" column="89" lean-forward="false" selection-start-line="67" selection-start-column="73" selection-end-line="67" selection-end-column="89" />
-          <folding>
-            <element signature="e#1#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -757,7 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,9 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -783,9 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1005">
           <caret line="67" column="62" lean-forward="false" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
-          <folding>
-            <element signature="e#1#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,7 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,13 +586,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tt2.py" />
     <entry file="file://$PROJECT_DIR$/pyNormsc/scnorm.py" />
-    <entry file="file://$PROJECT_DIR$/testData/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testData/test.txt" />
     <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/statsmodels/regression/quantile_regression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -886,13 +596,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pyNormsc/guinc.py" />
     <entry file="file://$PROJECT_DIR$/pyNormsc/tkinterTable.py" />
-    <entry file="file://$PROJECT_DIR$/freeIcons/index.url">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/freeIcons/index.url" />
     <entry file="file://$PROJECT_DIR$/freeIcons/gif/24x24/52.gif">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -905,45 +609,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyNormsc/scnorm/initialEvalPlot copy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pyNormsc/scnorm/initialEvalPlot copy.py" />
     <entry file="file://$PROJECT_DIR$/testData/scH1dataConditions.txt" />
     <entry file="file://$PROJECT_DIR$/pyNormsc/scnorm/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="108" lean-forward="false" selection-start-line="0" selection-start-column="108" selection-end-line="0" selection-end-column="108" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyNormsc/scnorm/checkCountDepth copy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pyNormsc/scnorm/checkCountDepth copy.py" />
     <entry file="file://$PROJECT_DIR$/visnormsc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyNormsc/scnorm/GetK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -951,7 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
           <caret line="4" column="63" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="5" column="102" lean-forward="false" selection-start-line="5" selection-start-column="102" selection-end-line="5" selection-end-column="102" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -967,7 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -975,7 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,19 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyNormsc/scnorm/NormWrap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="51" />
-          <folding>
-            <element signature="e#1#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1003,9 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="50" lean-forward="false" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1013,56 +672,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-312">
           <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guiscnorm.py">
+    <entry file="file://$PROJECT_DIR$/guiscnorm.py" />
+    <entry file="file://$PROJECT_DIR$/pyNormsc/scnorm/SCnorm_function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="372">
+          <caret line="74" column="27" lean-forward="false" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyNormsc/gui.py" />
+    <entry file="file://$PROJECT_DIR$/pyNormsc/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/pyNormsc/scnorm/GetK.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyNormsc/scnorm/GetTD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="75">
           <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyNormsc/scnorm/SCnorm_function.py">
+    <entry file="file://$PROJECT_DIR$/pyNormsc/scnorm/NormWrap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="74" column="27" lean-forward="false" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+        <state relative-caret-position="-117">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding>
-            <element signature="e#1#19#0" expanded="true" />
+            <element signature="e#1#10#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyNormsc/gui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="602" column="44" lean-forward="false" selection-start-line="602" selection-start-column="44" selection-end-line="602" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyNormsc/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyNormsc/scnorm/SCnorm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="107" column="24" lean-forward="false" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
+        <state relative-caret-position="870">
+          <caret line="58" column="8" lean-forward="false" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="8" />
           <folding>
             <element signature="e#1#23#0" expanded="true" />
           </folding>
@@ -1071,24 +728,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ncgui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7448">
-          <caret line="110" column="59" lean-forward="false" selection-start-line="110" selection-start-column="59" selection-end-line="110" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="-2922">
+          <caret line="447" column="27" lean-forward="true" selection-start-line="447" selection-start-column="27" selection-end-line="447" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="1102" column="39" lean-forward="false" selection-start-line="1102" selection-start-column="39" selection-end-line="1102" selection-end-column="39" />
+        <state relative-caret-position="324">
+          <caret line="1125" column="0" lean-forward="false" selection-start-line="1125" selection-start-column="0" selection-end-line="1125" selection-end-column="0" />
           <folding />
         </state>
       </provider>

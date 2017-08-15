@@ -58,7 +58,6 @@ class mainApp():
         s.configure('log.TFrame', background='#d9d9d9')
         ## notebook style
         s.configure('op.TNotebook', borderwidth=0)
-        #s.configure('TNotebook.Tab', borderwidth=0)
         s.configure('res.TNotebook', tabposition='n')
         s.configure('res.TNotebook.Tab', padding='4 2')
         ## toorbar icon
@@ -218,9 +217,6 @@ class mainApp():
         self.normThresh = tk.StringVar(value='0.1')
         ttk.Entry(opNormalize, textvariable=self.normThresh, width=6).grid(row=5, column=8, columnspan=2)
         ttk.Button(opNormalize, text='Normalize', command=self.doNormalization, style='analysis.TButton').grid(row=5, column=11)
-        # ttk.Button(opNormalize, text='empty result', command=self.clearResultView).grid(row=6, column=0)
-        # ttk.Button(opNormalize, text='fire result1', command=self.fireResultViewStep1).grid(row=6, column=3)
-        # ttk.Button(opNormalize, text='fire result2', command=lambda: self.fireResultViewStep2(self.normResData)).grid(row=6, column=5)
         ops.add(op1, text='Quick start')
         ops.add(opCheck, text='Check')
         ops.add(opNormalize, text='Normalize')
@@ -242,18 +238,6 @@ class mainApp():
         results.add(result1, text='Normalized data')
         results.add(result2, text='Scale factors')
         results.add(result3, text='Filtered genes')
-
-    def clearResultView(self):
-        # destroy all and rebuild notebook widget
-        for x in self.resFrame.winfo_children():
-            x.destroy()
-        self.resFrame.destroy()
-        self.makeEmptyResultView(self.root)
-
-    def fireResultViewStep1(self):
-        # destroy all children widgets and then recreate
-        for x in self.resFrame.winfo_children():
-            x.destroy()
         # result notebook
         results = ttk.Notebook(self.resFrame, style='res.TNotebook')
         results.grid(row=0, column=0, sticky='ewns')
@@ -261,32 +245,32 @@ class mainApp():
         result1 = ttk.Frame(results)#, style='resNB.TFrame')
         self.result1Text = tk.Text(result1, width=50, height=12, state='disabled', font=tkFont.Font(family='Helvetica', size=-12), wrap=tk.NONE)
         self.result1Text.grid(row=0, column=0)
-        result1Vscroll = ttk.Scrollbar(result1, orient='vertical', command=self.result1Text.yview)
-        result1Vscroll.grid(row=0, column=1, sticky='NS')
-        self.result1Text['yscrollcommand'] = result1Vscroll.set
-        result1Hscroll = ttk.Scrollbar(result1, orient='horizontal', command=self.result1Text.xview)
-        result1Hscroll.grid(row=1, column=0, sticky='EW')
-        self.result1Text['xscrollcommand'] = result1Hscroll.set
+        self.result1Vscroll = ttk.Scrollbar(result1, orient='vertical', command=self.result1Text.yview)
+        self.result1Vscroll.grid(row=0, column=1, sticky='NS')
+        self.result1Text['yscrollcommand'] = self.result1Vscroll.set
+        self.result1Hscroll = ttk.Scrollbar(result1, orient='horizontal', command=self.result1Text.xview)
+        self.result1Hscroll.grid(row=1, column=0, sticky='EW')
+        self.result1Text['xscrollcommand'] = self.result1Hscroll.set
         ## 2
         result2 = ttk.Frame(results)
         self.result2Text = tk.Text(result2, width=50, height=12, state='disabled', font=tkFont.Font(family='Helvetica', size=-12), wrap=tk.NONE)
         self.result2Text.grid(row=0, column=0)
-        result2Vscroll = ttk.Scrollbar(result2, orient='vertical', command=self.result2Text.yview)
-        result2Vscroll.grid(row=0, column=1, sticky='NS')
-        self.result2Text['yscrollcommand'] = result2Vscroll.set
-        result2Hscroll = ttk.Scrollbar(result2, orient='horizontal', command=self.result2Text.xview)
-        result2Hscroll.grid(row=1, column=0, sticky='EW')
-        self.result2Text['xscrollcommand'] = result2Hscroll.set
+        self.result2Vscroll = ttk.Scrollbar(result2, orient='vertical', command=self.result2Text.yview)
+        self.result2Vscroll.grid(row=0, column=1, sticky='NS')
+        self.result2Text['yscrollcommand'] = self.result2Vscroll.set
+        self.result2Hscroll = ttk.Scrollbar(result2, orient='horizontal', command=self.result2Text.xview)
+        self.result2Hscroll.grid(row=1, column=0, sticky='EW')
+        self.result2Text['xscrollcommand'] = self.result2Hscroll.set
         ## 3
         result3 = ttk.Frame(results)
         self.result3Text = tk.Text(result3, width=50, height=12, state='disabled', font=tkFont.Font(family='Helvetica', size=-12), wrap=tk.NONE)
         self.result3Text.grid(row=0, column=0)
-        result3Vscroll = ttk.Scrollbar(result3, orient='vertical', command=self.result3Text.yview)
-        result3Vscroll.grid(row=0, column=1, sticky='NS')
-        self.result3Text['yscrollcommand'] = result3Vscroll.set
-        result3Hscroll = ttk.Scrollbar(result3, orient='horizontal', command=self.result3Text.xview)
-        result3Hscroll.grid(row=1, column=0, sticky='EW')
-        self.result3Text['xscrollcommand'] = result3Hscroll.set
+        self.result3Vscroll = ttk.Scrollbar(result3, orient='vertical', command=self.result3Text.yview)
+        self.result3Vscroll.grid(row=0, column=1, sticky='NS')
+        self.result3Text['yscrollcommand'] = self.result3Vscroll.set
+        self.result3Hscroll = ttk.Scrollbar(result3, orient='horizontal', command=self.result3Text.xview)
+        self.result3Hscroll.grid(row=1, column=0, sticky='EW')
+        self.result3Text['xscrollcommand'] = self.result3Hscroll.set
         # bind notebook tabls
         results.add(result1, text='Normalized data')
         results.add(result2, text='Scale factors')
@@ -303,8 +287,40 @@ class mainApp():
             self.result2Text.configure(width=columns, height=lines)
             self.result3Text.configure(width=columns, height=lines)
         results.bind('<Configure>', setNBTextArea)
+        # hide text areas and scroll bars
+        self.result1Vscroll.grid_remove()
+        self.result1Hscroll.grid_remove()
+        self.result2Vscroll.grid_remove()
+        self.result2Hscroll.grid_remove()
+        self.result3Vscroll.grid_remove()
+        self.result3Hscroll.grid_remove()
+        self.result1Text.grid_remove()
+        self.result2Text.grid_remove()
+        self.result3Text.grid_remove()
 
-    def fireResultViewStep2(self, resData):
+    def clearResultView(self):
+        # clear text content
+        self.result1Text.config(state=tk.NORMAL)
+        self.result1Text.delete('1.0', 'end')
+        self.result1Text.config(state=tk.DISABLED)
+        self.result2Text.config(state=tk.NORMAL)
+        self.result2Text.delete('1.0', 'end')
+        self.result2Text.config(state=tk.DISABLED)
+        self.result3Text.config(state=tk.NORMAL)
+        self.result3Text.delete('1.0', 'end')
+        self.result3Text.config(state=tk.DISABLED)
+
+    def fireResultView(self, resData):
+        # show text areas and scroll bars
+        self.result1Text.grid()
+        self.result2Text.grid()
+        self.result3Text.grid()
+        self.result1Vscroll.grid()
+        self.result1Hscroll.grid()
+        self.result2Vscroll.grid()
+        self.result2Hscroll.grid()
+        self.result3Vscroll.grid()
+        self.result3Hscroll.grid()
         # insert data
         ## 1 resData[0]['NormalizedData'], dict, df
         self.result1Text.config(state=tk.NORMAL)
@@ -582,8 +598,6 @@ class mainApp():
             if passCheck:
                 ## clear previous result
                 self.clearResultView()
-                ## initialize result view container, in case of event binding error
-                self.fireResultViewStep1()
                 ## doing
                 from pyNormsc.scnorm import SCnorm
                 self.print2Text('Following arguments were used:')
@@ -604,7 +618,7 @@ class mainApp():
                                     normParTau, True, normParFilterCellNum,
                                     normPar_K, normParCPUs, normParFilterExpression, normParThresh)
                 ## show result data in GUI
-                self.fireResultViewStep2(normResData)
+                self.fireResultView(normResData)
                 ## activate save button
                 self.saveButton.state(['!disabled'])
                 self.saveButton.configure(command=lambda: self.saveNormResult2Files(normResData))
@@ -643,8 +657,6 @@ class mainApp():
         self.makeOps(master)
         self.makeEmptyResultView(master)
         self.makeInfoBoard(master)
-        # self.normResData = [{'NormalizedData': pd.DataFrame({'a': [1, 2, 3], 'b': [4, 5, 6]}), 'ScaleFactors': pd.DataFrame({'a': [.1, .2, .3], 'b': [.4, .5, .6]})}, {'a': [1, 2], 'b': ['no']}]
-
 
 if __name__ == '__main__':
     freeze_support()

@@ -1,11 +1,15 @@
 
 import os
+import sys
 import copy
+import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 from . import SCnorm_function
 from . import GetK
 
 def Normalize(Data, SeqDepth, Slopes, CondNum, PLOT, PropToUse, Tau, NCores, Thresh):
+    # change backend
+    plt.switch_backend('Agg')
     # set up
     GetMax = 1
     i = 0
@@ -29,6 +33,7 @@ def Normalize(Data, SeqDepth, Slopes, CondNum, PLOT, PropToUse, Tau, NCores, Thr
 
     if PLOT:
         evalFigsOut.close()
-        print('Plots of evaluating K have been saved to', os.path.join(os.getcwd(), tmpOutName))
+        print('Plots of evaluating K have been saved to', os.path.join(os.getcwd(), tmpOutName), file=sys.stderr)
 
+    plt.switch_backend('TkAgg')
     return NormDataList
