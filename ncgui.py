@@ -13,6 +13,7 @@ import time
 import os
 import sys
 import io
+import webbrowser
 
 class StdRedirector(object):
     """
@@ -89,15 +90,15 @@ class mainApp():
 
     def makeMenubar(self, master):
         menubar = tk.Menu(master)
-        fileMenu = tk.Menu(master, tearoff=0)
-        fileMenu.add_command(label='Open', command=self.openFileDialog)
-        fileMenu.add_command(label='Save')
-        fileMenu.add_separator()
-        fileMenu.add_command(label='Quit', command=self.quitApp)
+        self.fileMenu = tk.Menu(master, tearoff=0)
+        self.fileMenu.add_command(label='Open', command=self.openFileDialog)
+        self.fileMenu.add_command(label='Save', state=tk.DISABLED)
+        self.fileMenu.add_separator()
+        self.fileMenu.add_command(label='Quit', command=self.quitApp)
         helpMenu = tk.Menu(master, tearoff=0)
         helpMenu.add_command(label='About VisNormSc')
-        helpMenu.add_command(label='User guidance')
-        menubar.add_cascade(label='File', menu=fileMenu)
+        helpMenu.add_command(label='User guidance', command=self.openUserGuide)
+        menubar.add_cascade(label='File', menu=self.fileMenu)
         menubar.add_cascade(label='Help', menu=helpMenu)
         self.root.configure(menu=menubar)
 
@@ -621,7 +622,9 @@ class mainApp():
                 self.fireResultView(normResData)
                 ## activate save button
                 self.saveButton.state(['!disabled'])
+                self.fileMenu.entryconfig('Save', state=tk.NORMAL)
                 self.saveButton.configure(command=lambda: self.saveNormResult2Files(normResData))
+                self.fileMenu.entryconfig('Save', command=lambda: self.saveNormResult2Files(normResData))
                 ## make figure window
                 figWindow = tk.Toplevel(self.root)
                 figWindow.title('Normalization result')
@@ -647,6 +650,10 @@ class mainApp():
             resData[1].to_csv(file3name)
         else:
             self.print2Text('No data saved as you didn\'t select target directory.')
+
+    def openUserGuide(self):
+        url = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'doc/index.html')
+        webbrowser.open('file://' + url)
 
     def __init__(self, master):
         self.root = master
