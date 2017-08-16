@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbeab2f3-2b2e-470e-bfc2-a6ad9e9580ad" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/.index.html.swp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/evaluate_k_for_condition_1.pdf" afterPath="$PROJECT_DIR$/test/evaluate_k_for_condition_1.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/evaluate_k_for_condition_2.pdf" afterPath="$PROJECT_DIR$/test/evaluate_k_for_condition_2.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ncgui.py" afterPath="$PROJECT_DIR$/ncgui.py" />
     </list>
@@ -24,8 +21,8 @@
       <file leaf-file-name="scratch.py" pinned="false" current-in-tab="true">
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="1126" column="0" lean-forward="true" selection-start-line="1126" selection-start-column="0" selection-end-line="1126" selection-end-column="0" />
+            <state relative-caret-position="594">
+              <caret line="1126" column="0" lean-forward="false" selection-start-line="1126" selection-start-column="0" selection-end-line="1126" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -42,7 +39,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>normParFilterExpression</find>
       <find>normNumGeneGroups</find>
       <find>StdRedirector</find>
       <find>flush</find>
@@ -72,6 +68,7 @@
       <find>TNotebook.Tab</find>
       <find>__file</find>
       <find>adjust</find>
+      <find>topl</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -158,20 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Scratches" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -201,6 +184,20 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scratches" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,15 +356,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25178826" sideWeight="0.48367348" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553648" sideWeight="0.48367348" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.509299" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.490701" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.48569384" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968536" sideWeight="0.48712447" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968536" sideWeight="0.48712447" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2746781" sideWeight="0.51632655" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -704,16 +702,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ncgui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6135">
-          <caret line="534" column="89" lean-forward="false" selection-start-line="534" selection-start-column="89" selection-end-line="534" selection-end-column="89" />
+        <state relative-caret-position="255">
+          <caret line="654" column="99" lean-forward="false" selection-start-line="654" selection-start-column="99" selection-end-line="654" selection-end-column="99" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="1126" column="0" lean-forward="true" selection-start-line="1126" selection-start-column="0" selection-end-line="1126" selection-end-column="0" />
+        <state relative-caret-position="594">
+          <caret line="1126" column="0" lean-forward="false" selection-start-line="1126" selection-start-column="0" selection-end-line="1126" selection-end-column="0" />
           <folding />
         </state>
       </provider>

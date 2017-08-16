@@ -96,7 +96,7 @@ class mainApp():
         self.fileMenu.add_separator()
         self.fileMenu.add_command(label='Quit', command=self.quitApp)
         helpMenu = tk.Menu(master, tearoff=0)
-        helpMenu.add_command(label='About VisNormSc')
+        helpMenu.add_command(label='About', command=self.showAbout)
         helpMenu.add_command(label='User guidance', command=self.openUserGuide)
         menubar.add_cascade(label='File', menu=self.fileMenu)
         menubar.add_cascade(label='Help', menu=helpMenu)
@@ -643,6 +643,16 @@ class mainApp():
             resData[1].to_csv(file3name)
         else:
             self.print2Text('No data saved as you didn\'t select target directory.')
+
+    def showAbout(self):
+        aboutWindow = tk.Toplevel(self.root)
+        aboutWindow.geometry('300x200+100+100')
+        aboutWindow.resizable(False, False)
+        aboutWindow.title('About')
+        aboutFrame = tk.Frame(aboutWindow)
+        aboutFrame.pack(fill=tk.BOTH, expand=True)
+        tk.Label(aboutFrame, text='Version 2017.0.1\n\nCredit to scnorm\n\nDeveloped by Nan Zhou').pack(expand=True)
+        tk.Button(aboutFrame, text='Close', command=lambda: aboutWindow.destroy()).pack(expand=True)
 
     def openUserGuide(self):
         url = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'doc/index.html')
