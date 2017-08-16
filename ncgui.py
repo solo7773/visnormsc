@@ -128,6 +128,7 @@ class mainApp():
         self.tableViewFrame.grid(row=1, column=0, rowspan=3, sticky='NSEW')
         self.tableViewFrame.grid_propagate(0)
         self.tableViewFrame.grid_columnconfigure(0, weight=1)
+        self.tableViewFrame.grid_rowconfigure(0, weight=1)
 
     def makeOps(self, master):
         opFrame = ttk.Frame(master, width=500, height=200, padding=2)#, style='op.TFrame')
@@ -242,10 +243,14 @@ class mainApp():
         # result notebook
         results = ttk.Notebook(self.resFrame, style='res.TNotebook')
         results.grid(row=0, column=0, sticky='ewns')
+        ##
+        hereFont = tkFont.Font(family='Helvetica', size=-12)
         ## 1
         result1 = ttk.Frame(results)#, style='resNB.TFrame')
-        self.result1Text = tk.Text(result1, width=50, height=12, state='disabled', font=tkFont.Font(family='Helvetica', size=-12), wrap=tk.NONE)
-        self.result1Text.grid(row=0, column=0)
+        result1.grid_columnconfigure(0, weight=1)
+        result1.grid_rowconfigure(0, weight=1)
+        self.result1Text = tk.Text(result1, width=50, height=12, state='disabled', font=hereFont, wrap=tk.NONE)
+        self.result1Text.grid(row=0, column=0, sticky='WENS')
         self.result1Vscroll = ttk.Scrollbar(result1, orient='vertical', command=self.result1Text.yview)
         self.result1Vscroll.grid(row=0, column=1, sticky='NS')
         self.result1Text['yscrollcommand'] = self.result1Vscroll.set
@@ -254,8 +259,10 @@ class mainApp():
         self.result1Text['xscrollcommand'] = self.result1Hscroll.set
         ## 2
         result2 = ttk.Frame(results)
-        self.result2Text = tk.Text(result2, width=50, height=12, state='disabled', font=tkFont.Font(family='Helvetica', size=-12), wrap=tk.NONE)
-        self.result2Text.grid(row=0, column=0)
+        result2.grid_columnconfigure(0, weight=1)
+        result2.grid_rowconfigure(0, weight=1)
+        self.result2Text = tk.Text(result2, width=50, height=12, state='disabled', font=hereFont, wrap=tk.NONE)
+        self.result2Text.grid(row=0, column=0, sticky='WENS')
         self.result2Vscroll = ttk.Scrollbar(result2, orient='vertical', command=self.result2Text.yview)
         self.result2Vscroll.grid(row=0, column=1, sticky='NS')
         self.result2Text['yscrollcommand'] = self.result2Vscroll.set
@@ -264,8 +271,10 @@ class mainApp():
         self.result2Text['xscrollcommand'] = self.result2Hscroll.set
         ## 3
         result3 = ttk.Frame(results)
-        self.result3Text = tk.Text(result3, width=50, height=12, state='disabled', font=tkFont.Font(family='Helvetica', size=-12), wrap=tk.NONE)
-        self.result3Text.grid(row=0, column=0)
+        result3.grid_columnconfigure(0, weight=1)
+        result3.grid_rowconfigure(0, weight=1)
+        self.result3Text = tk.Text(result3, width=50, height=12, state='disabled', font=hereFont, wrap=tk.NONE)
+        self.result3Text.grid(row=0, column=0, sticky='WENS')
         self.result3Vscroll = ttk.Scrollbar(result3, orient='vertical', command=self.result3Text.yview)
         self.result3Vscroll.grid(row=0, column=1, sticky='NS')
         self.result3Text['yscrollcommand'] = self.result3Vscroll.set
@@ -278,12 +287,10 @@ class mainApp():
         results.add(result3, text='Filtered genes')
         # fine-tune text area size
         def setNBTextArea(event):
-            fHeight = results.winfo_height()
-            fWidth = results.winfo_width()
-            # height - extra (23 or 2) - text border - text top and bottom space - scrollbar height
-            lines = int((fHeight - 23 - 2 - 2 - 1 - 1 - 16) / (12 + 1 + 1))
-            lines = self.adjustTextLiens(lines)
-            columns = int((fWidth - 2 - 2 - 2 - 1 - 1 - 16) / tkFont.Font(family='Helvetica', size=-12).measure('a'))
+            fHeight = self.result1Text.winfo_height()
+            fWidth = self.result1Text.winfo_width()
+            lines = int(fHeight / hereFont.metrics('linespace'))
+            columns = int(fWidth / hereFont.measure('a'))
             self.result1Text.configure(width=columns, height=lines)
             self.result2Text.configure(width=columns, height=lines)
             self.result3Text.configure(width=columns, height=lines)
@@ -349,7 +356,6 @@ class mainApp():
         self.result2Text.config(state=tk.DISABLED)
         ## 3 dict resData[1], df
         self.result3Text.config(state=tk.NORMAL)
-        # geneFilteredOutDF = pd.concat([pd.Series(resData[1][x], name=x) for x in resData[1]], axis=1)
         rowColNames = ' , ' + ', '.join([str(x) for x in resData[1].columns.values.tolist()]) + '\n'
         self.result3Text.insert('end', rowColNames)
         for iii in range(len(resData[1])):
@@ -364,16 +370,17 @@ class mainApp():
         logFrame = ttk.Frame(master, width=500, height=200, padding=2, style='log.TFrame')
         logFrame.grid(row=4, column=1, sticky='NSEW')
         logFrame.grid_propagate(0)
-        self.logBoard = tk.Text(logFrame, bg='#e0e0e0', highlightbackground='#e0e0e0', state='disabled', width=79, height=13, wrap=tk.WORD, font=tkFont.Font(family='Helvetica', size=-12))
-        self.logBoard.grid(row=0, column=0)
+        logFrame.grid_rowconfigure(0, weight=1)
+        logFrame.grid_columnconfigure(0, weight=1)
+        hereFont = tkFont.Font(family='Helvetica', size=-12)
+        self.logBoard = tk.Text(logFrame, bg='#e0e0e0', highlightbackground='#e0e0e0', state='disabled', width=79, height=13, wrap=tk.WORD, font=hereFont)
+        self.logBoard.grid(row=0, column=0, sticky='WENS')
         # fine-tune text area size
         def setTextAreaSize(event):
-            fHeight = logFrame.winfo_height()
-            fWidth = logFrame.winfo_width()
-            # height - frame padding - text border - text top and bottom space - scrollbar height
-            lines = int((fHeight - 2 - 2 - 2 - 2 - 1 - 1) / (12 + 1 + 1))
-            lines = self.adjustTextLiens(lines)
-            columns = int((fWidth - 2 - 2 - 2 - 2 - 1 - 1 - 16) / tkFont.Font(family='Helvetica', size=-12).measure('a'))
+            fHeight = self.logBoard.winfo_height()
+            fWidth = self.logBoard.winfo_width()
+            lines = int(fHeight / hereFont.metrics('linespace'))
+            columns = int(fWidth / hereFont.measure('a'))
             self.logBoard.configure(width=columns, height=lines)
         logFrame.bind('<Configure>', setTextAreaSize)
         # redirect stdout here
@@ -410,30 +417,16 @@ class mainApp():
         else:
             self.dataFile.set('Please open data')
 
-    def adjustTextLiens(self, oldLines):
-        userPlatform = self.root.tk.call('tk', 'windowingsystem') # x11, win32 or aqua
-        userPlatform = userPlatform.lower()
-        if userPlatform == 'aqua':
-            newLines = oldLines
-        elif userPlatform == 'win32':
-            newLines = oldLines - 2
-        elif userPlatform == 'x11':
-            newLines = oldLines
-        else:
-            newLines = oldLines
-        return newLines
-
     def showDataText(self, filename=None):
-        textArea = tk.Text(self.tableViewFrame, width=79, height=26, state='disabled', wrap=tk.NONE, font=tkFont.Font(family='Helvetica', size=-12))
-        textArea.grid(row=0, column=0, sticky='WE')
+        hereFont = tkFont.Font(family='Helvetica', size=-12)
+        textArea = tk.Text(self.tableViewFrame, width=79, height=26, state='disabled', wrap=tk.NONE, font=hereFont)
+        textArea.grid(row=0, column=0, sticky='WENS')
         # fine-tune text area size
         def setTextAreaSize(event):
-            fHeight = self.tableViewFrame.winfo_height()
-            fWidth = self.tableViewFrame.winfo_width()
-            # height - label height - frame padding - text border - text top and bottom space - scrollbar height
-            lines = int((fHeight - 15 - 2 - 2 - 2 - 2 - 1 - 1 - 16) / (12 + 1 + 1))
-            lines = self.adjustTextLiens(lines)
-            columns = int((fWidth - 2 - 2 - 2 - 2 - 1 - 1 - 16) / tkFont.Font(family='Helvetica', size=-12).measure('a'))
+            fHeight = textArea.winfo_height()
+            fWidth = textArea.winfo_width()
+            lines = int(fHeight / hereFont.metrics('linespace'))
+            columns = int(fWidth / hereFont.measure('a'))
             textArea.configure(width=columns, height=lines)
         textArea.bind('<Configure>', setTextAreaSize)
         # scroll bars
@@ -463,7 +456,7 @@ class mainApp():
             self.conditionFile.set('Please choose file')
 
     def doCheckCountDepth(self):
-        userToken = messagebox.askokcancel(title='Analyze', message='Are you sure you want to start analyzing?', icon='question', default='cancel')
+        userToken = messagebox.askokcancel(title='Analyze', message='Ready to check?', icon='question', default='cancel')
         if userToken:
             passCheck = True
             # check parameters
@@ -539,7 +532,7 @@ class mainApp():
                 canvas._tkcanvas.pack(side=tk.TOP, fill=tk.BOTH, expand=1)
 
     def doNormalization(self):
-        userToken = messagebox.askokcancel(title='Normalize', message='Are you sure you want to start normalizing?', icon='question', default='cancel')
+        userToken = messagebox.askokcancel(title='Normalize', message='Ready to normalize?', icon='question', default='cancel')
         if userToken:
             passCheck = True
             # check parameters
