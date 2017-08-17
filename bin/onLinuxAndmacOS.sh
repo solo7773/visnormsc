@@ -4,7 +4,7 @@ pwd
 echo ""
 echo "Beware this is where the program will save temporary data to."
 echo ""
-echo -n "When you are ready, press [ENTER] to proceed"
+echo -n "When you are ready, press [ENTER] to proceed."
 read nouse_var
 echo ""
 
