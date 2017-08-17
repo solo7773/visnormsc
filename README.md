@@ -2,9 +2,9 @@
 
 A Graphical User Interfaces (GUI) program to normalize single cell gene expression data.
 
-This program is built on python so it is a cross-platform tool and can be run on Windows, Linux and macOS.
+This is a cross-platform tool built on python so it can run on Windows, Linux and macOS.
 
-Required python version is 3.5 or later.
+This program Requires python >= 3.5.
 
 ## Builtin package dependence:<br />
 > copy<br />
