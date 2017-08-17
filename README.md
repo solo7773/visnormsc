@@ -21,11 +21,11 @@ This program Requires python >= 3.5.
 
 ## External package dependence:<br />
 > matplotlib >= 2.0.2<br />
-> pandas >= 0.20.1<br />
 > numpy >= 1.12.1<br />
+> pandas >= 0.20.1<br />
+> scikit_learn >= 0.18.1<br />
 > scipy >= 0.19.0<br />
 > statsmodels >= 0.8.0<br />
-> scikit_learn >= 0.18.1<br />
 
 ## Installation:<br />
 This software requires python and external packages installed on your paltform before you can use it.
