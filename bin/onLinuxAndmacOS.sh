@@ -9,7 +9,9 @@ read nouse_var
 echo ""
 
 if ~/anaconda3/bin/python ../ncgui.py; then
-	echo "Everything is ok. Quit program."
+    echo ""
+    echo "Everything is ok. Quit program."
 else
-	echo "python cannot be found, please make sure you have installed python correctly and the path to python has been added to the environment variable PATH."
+    echo ""
+    echo "python cannot be found, please make sure you have installed python correctly and the path to python has been added to the environment variable PATH."
 fi
