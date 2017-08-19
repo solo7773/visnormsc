@@ -7,7 +7,7 @@ echo This is the default place where the program will save temporary data.
 echo\
 echo When you are ready.
 pause
-python ../ncgui.py
+python ../visnormscGUI.py
 
 if NOT %ERRORLEVEL% == 0 (
     echo\

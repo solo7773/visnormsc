@@ -33,7 +33,7 @@ class StdRedirector(object):
 class mainApp():
     """Create GUI application"""
     def setMasterLook(self):
-        self.root.title('VisNormSC')
+        self.root.title('visnormsc')
         self.root.geometry('1000x640+30+30')
         self.root.minsize(1000, 640)
         # for resize
@@ -141,11 +141,11 @@ class mainApp():
         op1 = ttk.Frame(ops)
         op1Text = tk.Text(op1, width=70, height=12, wrap=tk.WORD, highlightbackground='#d9d9d9', bg='#d9d9d9')
         op1Text.grid(row=0, column=0, sticky='WEN')
-        op1Text.insert('1.0', 'Quick guidance:\n  1. Use check to check the count-depth relationship of your (un-)normalized data.\n  2. Use normalize to normalize your data.\n  3. From the count-depth figure:\n    (1) If all genes within your un-normalized data have a similar relationship then a global stratagy such as DESeq and TMM can be used to normalize your data;\n    (2) Otherwise you should use this tool to normalize you data;\n    (3) Once well normalized, all genes should show a similar count-depth relationship.')
+        op1Text.insert('1.0', 'Quick guidance:\n  1. Use Check to check the count-depth relationship in your (un-)normalized data.\n  2. Use Normalize to normalize your data.\n  3. From the count-depth figure:\n    (1) If all genes within your un-normalized data show dissimilar relationships then you should use this tool for normalization;\n    (2) After normalization, all genes should show a similar count-depth relationship.')
         op1Text['state'] = 'disabled'
         # check count and depth portal
         opCheck = ttk.Frame(ops)
-        ttk.Label(opCheck, text='Check the count-depth relationship of (un-)normalized data').grid(row=0, column=0, columnspan=8)
+        ttk.Label(opCheck, text='Check the count-depth relationship in (un-)normalized data').grid(row=0, column=0, columnspan=8)
         ttk.Label(opCheck, text='Data').grid(row=1, column=0, columnspan=2, sticky='wns')
         self.dataFile = tk.StringVar(value='Open data file')
         dataEntry = ttk.Entry(opCheck, textvariable=self.dataFile)
@@ -651,12 +651,11 @@ class mainApp():
         aboutWindow.title('About')
         aboutFrame = tk.Frame(aboutWindow)
         aboutFrame.pack(fill=tk.BOTH, expand=True)
-        tk.Label(aboutFrame, text='Version 2017.0.1\n\nCredit to scnorm\n\nDeveloped by Nan Zhou').pack(expand=True)
+        tk.Label(aboutFrame, text='License GPL-3.0\n\nVersion 2017.0.1\n\nCredit to scnorm\n\nDeveloped by Nan Zhou et al.').pack(expand=True)
         tk.Button(aboutFrame, text='Close', command=lambda: aboutWindow.destroy()).pack(expand=True)
 
     def openUserGuide(self):
-        url = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'doc/index.html')
-        webbrowser.open('file://' + url)
+        webbrowser.open('https://github.com/solo7773/visnormsc/wiki')
 
     def __init__(self, master):
         self.root = master

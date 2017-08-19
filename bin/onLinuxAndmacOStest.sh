@@ -8,7 +8,7 @@ echo -n "When you are ready, press [ENTER] to proceed."
 read nouse_var
 echo ""
 
-if ~/anaconda3/bin/python ../visnormscGUI.py; then
+if ~/miniconda3/bin/python ../visnormscGUI.py; then
     echo ""
     echo "Everything is ok. Quit program."
 else
