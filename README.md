@@ -33,7 +33,7 @@ This software requires Python and additional packages installed on your platform
 The easiest way to install the right Python version and dependencies is to download and install the latest version of [Anaconda](https://www.continuum.io/downloads) suitable for your platform.
 
 After you successfully install Anaconda, in the CMD prompt on Windows<sup>TM</sup>, or in the terminal on Linux or macOS<sup>TM</sup>, type<br />
-<span style='color:red'>`python ncgui.py`</span><br />
+`python ncgui.py`<br />
 and then you can enjoy this GUI program.
 
 If you encounter error like \"unknown command python\" then you need to check if you have installed Anaconda correctly and allowed the installation wizard to add python to your system environment path at the end of the installation.
