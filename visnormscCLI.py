@@ -1,30 +1,30 @@
+
+'''
+This is for user who are familiar with Python.
+It is just an example showing how to run visnormsc
+by coding from the scratch.
+'''
+
 from pyNormsc.scnorm import *
 import pandas as pd
 import numpy as np
 from multiprocessing import freeze_support
+from matplotlib.backends.backend_agg import FigureCanvasAgg
 
+#egData = pd.read_csv('test/testData/exampleData.csv', header=0, index_col=0)
+egData = pd.read_csv('test/testData/scH1data.csv', header=0, index_col=0)
 
-#egData = pd.read_csv('testData/exampleData.csv', header=0, index_col=0)
-#egData = pd.read_csv('testData/bulkH1data.csv', header=0, index_col=0)
-egData = pd.read_csv('testData/scH1data.csv', header=0, index_col=0)
-#egDataNorm = egData / egData.sum(axis=0) * egData.sum(axis=0).mean()
-# print(egData.shape)
-#
-# ttt = pd.read_table('testData/test.txt', sep='\t', header=0, index_col=0)
-
-
-#Conditions = np.repeat(np.array(['f', 'c']), 90)
-#Conditions = np.array([1] * 48)
+#Conditions = np.repeat(np.array([1, 2]), 90)
 Conditions = np.repeat(np.array(['1M', '4M']), 92)
-# Conditions = np.repeat(np.array([3, 5]), 90)
-# Conditions = np.repeat(np.array([1, 2]), [20, 160])
 
 if __name__ == '__main__':
     freeze_support()
-    #checkCountDepth.checkCountDepth(egData, Conditions=Conditions)
-    ttt, figInstance = SCnorm.SCnorm(egData, Conditions, True, reportSF=True)
-    print('Done')
+    # check count-depth relationship or do normalization
+    #figInstance = checkCountDepth.checkCountDepth(egData, Conditions=Conditions)
+    resData, figInstance = SCnorm.SCnorm(egData, Conditions, True, reportSF=True)
 
-# import importlib
-# importlib.reload(pyNormsc.scnorm.generalFuncs)
-# importlib.reload(pyNormsc.scnorm.GetSlopes)
+    # draw figure
+    countDepthCanvas = FigureCanvasAgg(figInstance)
+    countDepthCanvas.print_figure('countDepth.png')
+
+print('Done')
