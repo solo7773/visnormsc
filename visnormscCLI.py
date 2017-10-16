@@ -13,6 +13,7 @@ from matplotlib.backends.backend_agg import FigureCanvasAgg
 
 #egData = pd.read_csv('test/testData/exampleData.csv', header=0, index_col=0)
 egData = pd.read_csv('test/testData/scH1data.csv', header=0, index_col=0)
+egData2 = pd.read_csv('test/testData/trapnellData.csv', header=0, index_col=0)
 
 #Conditions = np.repeat(np.array([1, 2]), 90)
 Conditions = np.repeat(np.array(['1M', '4M']), 92)
