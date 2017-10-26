@@ -2,7 +2,7 @@
 
 **visnormsc** is a Graphical User Interface (GUI) for normalization of single-cell RNA sequencing (RNA-seq) data.
 
-It is developed using the Python programming language so it is a cross-platform GUI program for Windows<sup>TM</sup>, Linux and macOS<sup>TM</sup>.
+It is developed using the Python programming language so it is a cross-platform GUI program for Windows, GNU/Linux and macOS.
 
 It depends on python >= 3.5 and following packages.
 
@@ -32,7 +32,7 @@ This software requires Python and additional packages installed on your platform
 
 The easiest way to install the right Python version and dependencies is to download and install the latest version of [Anaconda](https://www.continuum.io/downloads) suitable for your platform.
 
-After you successfully install Anaconda, in the CMD prompt on Windows<sup>TM</sup>, or in the terminal on Linux or macOS<sup>TM</sup>, type<br />
+After you successfully install Anaconda, in the CMD prompt on Windows, or in the terminal on Linux or macOS, type<br />
 `python visnormscGUI.py`<br />
 and then you can enjoy this GUI program.
 
