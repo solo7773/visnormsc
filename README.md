@@ -41,8 +41,8 @@ If you encounter error like \"unknown command python\" then you need to check if
 Another optional way is to create the same conda environment as the one used for delevoping visnormsc. After conda installation, run<br />
 `conda env create -f sharedCondaEnv.yml`<br />
 where the *sharedCondaEnv.yml* file is under directory **bin**. The new environment can then be activated by, for example,<br />
-`source activate visnormsc` in Linux and macOS, or<br/>
-`activate visnormsc` in Windows.
+`source activate visnormsc` on Linux and macOS, or<br/>
+`activate visnormsc` on Windows.
 
 ## Wiki:<br />
 A complete user manual is given at the [wiki page](https://github.com/solo7773/visnormsc/wiki).
